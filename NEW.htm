@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ton Nom – Développeur Fullstack</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <a href="mailto:tonemail@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/tonprofil" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+  </aside>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">TonNom</div>
+      <nav class="navbar" id="navbar">
+        <a href="#home">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#skills">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+      </button>
+
+      <div id="nav-toggle" class="nav-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <section id="home" class="hero">
+      <h1>Salut, je suis Ton Nom</h1>
+      <p>Développeur fullstack passionné par le web, l’IA et les startups.</p>
+      <a href="assets/Ton_CV.pdf" class="button" target="_blank">📄 Télécharger mon CV</a>
+    </section>
+
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Étudiant en 5e année de génie logiciel. Je travaille avec Laravel, React, Node.js et m'intéresse à l’IA et la cybersécurité. J’aime transformer des idées en produits concrets.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="grid">
+        <div class="project-card">
+          <h3>Blog Laravel</h3>
+          <p>Blog avec authentification, API REST et panneau admin.</p>
+          <a href="#">Demo</a> • <a href="#">Code</a>
+        </div>
+        <div class="project-card">
+          <h3>To-do App React</h3>
+          <p>Gestion de tâches avec React, hooks et animations.</p>
+          <a href="#">Demo</a> • <a href="#">Code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Compétences</h2>
+      <ul class="skills-list">
+        <li>React.js</li><li>Laravel</li><li>Node.js</li>
+        <li>Python</li><li>JavaScript</li><li>HTML/CSS</li>
+        <li>SQLite / PostgreSQL</li><li>Git</li><li>REST APIs</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Disponible pour discuter de projets ou collaborer !</p>
+      <p><a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
+      <p><a href="https://linkedin.com/in/tonprofil" target="_blank">LinkedIn ↗</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ton Nom
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
