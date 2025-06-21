@@ -30,5 +30,5 @@ Ce projet est mon portfolio personnel développé en HTML, CSS, JS.
 1. Clone ce repo
 
 ```bash
-git clone https://github.com/tonnom/portfolio.git
-cd portfolio
+git clone https://github.com/ErnestDikoum/My-porfolio.git
+cd porfolio
